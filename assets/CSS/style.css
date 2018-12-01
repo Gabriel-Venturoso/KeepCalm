@@ -35,11 +35,14 @@ header{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    transition: 0.2s;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #87BFFF
 }
 
-.menu-mobile:hover{
-    transform: scale(1.2);
+.menu-mobile.active{
+    box-shadow: 0 0 0 100vh #87BFFF;
+    background-color: white;
 }
 
 .traco{
@@ -47,7 +50,21 @@ header{
     border-radius: 5px;
     margin: 2px;
     width: 20px;
-    height: 3px;
+    height: 2px;
+    transition: 0.5s;
+}
+
+.menu-mobile.active .traco{
+    margin: 0;
+    position: absolute;
+}
+
+.menu-mobile.active .traco1{
+    transform: rotate(45deg);
+}
+
+.menu-mobile.active .traco2, .menu-mobile.active .traco3{
+    transform: rotate(315deg);
 }
 
 .banner{
