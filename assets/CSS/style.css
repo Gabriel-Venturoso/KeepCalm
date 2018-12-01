@@ -112,3 +112,8 @@ header{
 .card h3{
     margin-top: 0;
 }
+
+.sobre-nos > a {
+    margin: 0;
+    text-align: left;
+}
