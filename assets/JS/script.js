@@ -1,5 +1,7 @@
+let buttonMenuMobile = document.querySelector(".button-menu-mobile");
 let menuMobile = document.querySelector(".menu-mobile");
 
-menuMobile.onclick = () => {
-    menuMobile.classList.toggle("active");
+buttonMenuMobile.onclick = () => {
+    buttonMenuMobile.classList.toggle("active");
+    menuMobile.classList.toggle("hide");
 }

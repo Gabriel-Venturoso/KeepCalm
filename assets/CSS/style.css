@@ -23,7 +23,7 @@ header{
     font-family: 'Aref Ruqaa', serif;
 }
 
-.menu-mobile{
+.button-menu-mobile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,12 +35,12 @@ header{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    transition: 0.5s;
+    transition: 1s;
     cursor: pointer;
     box-shadow: 0 0 0 0 #87BFFF
 }
 
-.menu-mobile.active{
+.button-menu-mobile.active{
     box-shadow: 0 0 0 100vh #87BFFF;
     background-color: white;
 }
@@ -54,16 +54,16 @@ header{
     transition: 0.5s;
 }
 
-.menu-mobile.active .traco{
+.button-menu-mobile.active .traco{
     margin: 0;
     position: absolute;
 }
 
-.menu-mobile.active .traco1{
+.button-menu-mobile.active .traco1{
     transform: rotate(45deg);
 }
 
-.menu-mobile.active .traco2, .menu-mobile.active .traco3{
+.button-menu-mobile.active .traco2, .button-menu-mobile.active .traco3{
     transform: rotate(315deg);
 }
 
@@ -113,7 +113,41 @@ header{
     margin-top: 0;
 }
 
-.sobre-nos > a {
-    margin: 0;
-    text-align: left;
+.menu-mobile{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.menu-mobile ul{
+    padding: 0;
+}
+
+.menu-mobile ul li{
+    font-size: 2em;
+    border-bottom: solid black 1px;
+    padding: 0.5em 0;
+}
+
+.menu-mobile ul li:last-child{
+    border-bottom: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hide{
+    transform: scale(0);
+    opacity: 0;
 }
