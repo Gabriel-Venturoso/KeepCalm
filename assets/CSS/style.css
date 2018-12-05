@@ -2,20 +2,42 @@ body{
     margin: 0;
 }
 
-header{
-    background-color: #87BFFF;
+/* headers */
+
+.podcast{
+    background: url(../images/bg5.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 1em;
     box-shadow: 2px 2px 10px 2px #aaaaaa;
 }
 
+.about-us{
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    box-shadow: 2px 2px 10px 2px #aaaaaa;
+}
+
+.index{
+    background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    box-shadow: 2px 2px 10px 2px #aaaaaa;
+}
+
+/* headers */
+
 .logo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .logo img{
-    width: 150px;
+    width: 50px;
 }
 
 .logo h2{
@@ -30,18 +52,18 @@ header{
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #87BFFF;
+    background-color: #24bbce;
     border-radius: 50%;
     position: fixed;
     bottom: 20px;
     right: 20px;
     transition: 1s;
     cursor: pointer;
-    box-shadow: 0 0 0 0 #87BFFF
+    box-shadow: 0 0 0 0 #30c2d4
 }
 
 .button-menu-mobile.active{
-    box-shadow: 0 0 0 100vh #87BFFF;
+    box-shadow: 0 0 0 100vh #24bbce;
     background-color: white;
 }
 
@@ -130,7 +152,7 @@ header{
 
 .menu-mobile ul li{
     font-size: 2em;
-    border-bottom: solid black 1px;
+    border-bottom: solid #f1f1f1 1px;
     padding: 0.5em 0;
 }
 
@@ -144,10 +166,84 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #f1f1f1;
+}
+
+a:hover{
+    color: #034b61;
 }
 
 .hide{
     transform: scale(0);
     opacity: 0;
 }
+
+.pages{
+    font-family: Yanone Kaffeesatz;
+}
+
+
+
+/* novo */
+nav {
+    display: none;
+}
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 150%;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #034b61;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+/* novo */
+
+@media only screen and (min-width: 600px) {
+    .button-menu-mobile{
+        display: none;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .logo{
+        align-items: center;
+    }
+    nav{
+        display: inline;
+    }
+    .pages{
+        display: none;
+    }
+}
+
+/* novo */
+
+
+
+
+
+
+
+
+
