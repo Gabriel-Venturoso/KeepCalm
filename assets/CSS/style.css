@@ -244,6 +244,46 @@ nav ul li a {
     width: 100%;
     text-decoration: none;
     color: #f1f1f1;
+}   
+
+footer{
+    background-color: #034b61;
+}
+
+footer > h4{
+    text-align: center;
+    color: white;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+ }
+
+.rodape{
+    display: flex;
+    padding: 1em;
+}
+.rodape li img{
+    width: 2em;
+    height: 2em;
+    padding-left: 1em;
+}
+
+.termos{
+    display: flex;
+}
+
+.termos li{
+    list-style: none;
+    align-items: center;
+    padding: 1em;
+    color: #f1f1f1;
+}
+
+footer > p{
+    text-align: center;
+    color: #f1f1f1;
 }
 
 
