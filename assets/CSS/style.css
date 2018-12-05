@@ -114,7 +114,10 @@ body{
 }
 
 .container{
-    margin: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -132,7 +135,28 @@ body{
 }
 
 .card h3{
-    margin-top: 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about > p{
+    text-align: center;
+    margin: 3em;
+    margin-top: 0em;
+}
+
+.about img{
+    margin-left: 39em;
+    width: 8em;
+    height: 6em;
 }
 
 .menu-mobile{
