@@ -112,12 +112,17 @@ body{
 .banner p{
     margin: 0;
 }
-
 .container{
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.container img{
+    height: 10em;
+    width: 17em;
+    padding-bottom: 1em;
 }
 
 .card{
@@ -126,6 +131,7 @@ body{
     padding: 1em;
     margin: 1em 0;
     transition: 0.2s;
+    background-color: #d8eaec;
 }
 
 .card:hover{
