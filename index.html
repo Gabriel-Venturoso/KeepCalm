@@ -8,6 +8,8 @@
     <script src="assets/JS/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Source+Serif+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="assets/images/head.png">
     <title>Home - Keep Calm</title>
 </head>
 <body>
@@ -17,75 +19,78 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="podcast.html">PODCAST</a></li>
-                <li><a href="">TÓPICOS</a></li>
-                <li><a href="about-us.html">SOBRE NÓS</a></li>
-                <li><a href="">CONTATO</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PODCAST</a></li>
+                <li><a href="#">TÓPICOS</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+                <li><a href="#">CONTATO</a></li>
             </ul>
         </nav>
         
     </header>
+    <div class="banner"></div>
     <main>
-        <div class="banner"></div>
-            <div class="card">
-                <section>
-                    <div class="container">
+        <div class="card">
+            <section>
+                <div class="container" id="principal">
                     <h2>Como saber se você tem ansiedade?</h2>
                     <h4>Neste Podcast apresentamos oque é, como funciona a ansiedade e seus sintomas.</h4>
                     <p>A explicação pode ajuda-lo a saber se você sofre de ansiedade e como isso pode acarretar mudanças na sua vida.</p>
                     <img src="assets/images/ansiedade.png">
                     <audio controls>
                         <source src="assets/audio/ansiedade-podcast.mp3" type="audio/mpeg">
-                    </audio>
-                </section>
+                        </audio>
+                    </section>
+                </div>
+                <div class="secundarios">
+                    <div class="card">
+                        <h3>Post 2</h3>
+                        <section>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, blanditiis quaerat veritatis tenetur pariatur vero perspiciatis at modi reiciendis enim unde, expedita nam alias ipsa hic ea harum. Quos, fuga?
+                        </section>
+                    </div>
+                    <div class="card">
+                        <h3>Post 3</h3>
+                        <section>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, blanditiis quaerat veritatis tenetur pariatur vero perspiciatis at modi reiciendis enim unde, expedita nam alias ipsa hic ea harum. Quos, fuga?
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Post 2</h3>
-                <section>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, blanditiis quaerat veritatis tenetur pariatur vero perspiciatis at modi reiciendis enim unde, expedita nam alias ipsa hic ea harum. Quos, fuga?
-                </section>
-            </div>
-            <div class="card">
-                <h3>Post 3</h3>
-                <section>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, blanditiis quaerat veritatis tenetur pariatur vero perspiciatis at modi reiciendis enim unde, expedita nam alias ipsa hic ea harum. Quos, fuga?
-                </section>
-            </div>
+        </main>
+        <div class="button-menu-mobile">
+            <span class="traco traco1"></span>
+            <span class="traco traco2"></span>
+            <span class="traco traco3"></span>
         </div>
-    </main>
-    <div class="button-menu-mobile">
-        <span class="traco traco1"></span>
-        <span class="traco traco2"></span>
-        <span class="traco traco3"></span>
-    </div>
-    <div class="menu-mobile hide">
-        <ul class="pages">
-            <li><a href="">Podcasts</a></li>
-            <li><a href="">Tópicos</a></li>
-            <li><a href="about-us.html">Sobre nós</a></li>
-            <li><a href="">Contato</a></li>
-        </ul>
-    </div>
-    <footer>
-        <div>
-            <ul class="icones">
-                <li ><a href=""><img src="assets/images/facebook.png"></a></li>
-                <li ><a href=""><img src="assets/images/google-plus.png"></a></li>
-                <li ><a href=""><img src="assets/images/instagram.png"></a></li>
-                <li ><a href=""><img src="assets/images/linkedin.png"></a></li>
+        <div class="menu-mobile hide">
+            <ul class="pages">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Tópicos</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </div>
-        <div>
-            <ul class="termos">
-                <li>Termos</li>
-                <li>Privacidade</li>
-                <li>Segurança</li>
-                <li>Status</li>
-                <li>Ajuda</li>
-            </ul>
-        </div>
-        <p>© 2018 KeepCalm Inc.</p>
-    </footer>
-</body>
-</html>
+        <footer>
+            <div>
+                <ul class="icones">
+                    <li ><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li ><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                    <li ><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li ><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="termos">
+                    <li>Termos</li>
+                    <li>Privacidade</li>
+                    <li>Segurança</li>
+                    <li>Status</li>
+                    <li>Ajuda</li>
+                </ul>
+            </div>
+            <p>© 2018 KeepCalm Inc.</p>
+        </footer>
+    </body>
+    </html>

@@ -2,8 +2,6 @@ body{
     margin: 0;
 }
 
-/* headers */
-
 .podcast{
     background: url(../images/bg5.jpg);
     background-size: cover;
@@ -27,8 +25,6 @@ body{
     padding: 1em;
     box-shadow: 2px 2px 10px 2px #aaaaaa;
 }
-
-/* headers */
 
 .logo{
     display: flex;
@@ -63,7 +59,7 @@ body{
 }
 
 .button-menu-mobile.active{
-    box-shadow: 0 0 0 100vh #24bbce;
+    box-shadow: 0 0 0 150vh #24bbce;
     background-color: white;
 }
 
@@ -133,7 +129,7 @@ body{
     box-shadow: 0 1px 2px #aaaaaa;
     border: 1px solid #dddddd;
     padding: 1em;
-    margin: 1em 0;
+    margin: 1em;
     transition: 0.2s;
     background-color: #d8eaec;
 }
@@ -204,7 +200,7 @@ a{
 }
 
 a:hover{
-    color: #034b61;
+    color: #aaaaaa;
 }
 
 .hide{
@@ -216,9 +212,6 @@ a:hover{
     font-family: Yanone Kaffeesatz;
 }
 
-
-
-/* novo */
 nav {
     display: none;
 }
@@ -252,6 +245,7 @@ nav ul li a {
 
 footer{
     background-color: #034b61;
+    padding: 1rem;
 }
 
 footer > h4{
@@ -267,17 +261,18 @@ footer > div{
 
 .icones{
     display: flex;
-    padding: 1em;
-}
-
-.icones li img{
-    width: 2em;
-    height: 2em;
-    padding-left: 1em;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding: 0;
+    margin: 1rem;
 }
 
 .termos{
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .termos > li:hover{
@@ -295,9 +290,6 @@ footer p{
     text-align: center;
     color: #f1f1f1;
 }
-
-
-/* novo */
 
 @media only screen and (min-width: 600px) {
     .button-menu-mobile{
@@ -321,9 +313,25 @@ footer p{
     }
 }
 
-/* novo */
-
-
+@media (min-width: 800px){
+    main{
+        padding: 0 3rem;
+        display: flex;
+    }
+    
+    #principal{
+        width: 50vw;
+    }
+    
+    .secundarios .card{
+        box-sizing: border-box;
+        height: calc((100% - 3em) / 2);
+    }
+    .banner{
+        height: 25vw;
+        background-position: center;
+    }
+}
 
 
 
