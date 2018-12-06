@@ -264,11 +264,13 @@ footer > div{
     justify-content: center;
  }
 
-.rodape{
+
+.icones{
     display: flex;
     padding: 1em;
 }
-.rodape li img{
+
+.icones li img{
     width: 2em;
     height: 2em;
     padding-left: 1em;
@@ -278,6 +280,10 @@ footer > div{
     display: flex;
 }
 
+.termos > li:hover{
+    color: #aaaaaa;
+}
+
 .termos li{
     list-style: none;
     align-items: center;
@@ -285,7 +291,7 @@ footer > div{
     color: #f1f1f1;
 }
 
-footer > p{
+footer p{
     text-align: center;
     color: #f1f1f1;
 }
@@ -307,6 +313,10 @@ footer > p{
         display: inline;
     }
     .pages{
+        display: none;
+    }
+
+    .footer{
         display: none;
     }
 }
