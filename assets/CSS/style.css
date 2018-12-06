@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Roboto Slab;
 }
 
 .podcast{
@@ -38,7 +39,7 @@ body{
 
 .logo h2{
     margin: 0;
-    font-family: 'Aref Ruqaa', serif;
+    font-family: Roboto Slab;
 }
 
 .button-menu-mobile{
@@ -97,7 +98,7 @@ body{
     flex-direction: column;
     text-align: center;
     padding: 0 2em;
-    font-family: 'Source Serif Pro', serif;
+    font-family: Roboto Slab;
 }
 
 .banner h1{
@@ -115,7 +116,7 @@ body{
     flex-wrap: wrap;
 }
 
-.comtainer p, h4, h2{
+.container p, h4, h2{
     margin-bottom: 0em;
 }
 
@@ -291,6 +292,32 @@ footer p{
     color: #f1f1f1;
 }
 
+.itens {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itens div {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+
+.caixas:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+
 @media only screen and (min-width: 600px) {
     .button-menu-mobile{
         display: none;
@@ -331,7 +358,26 @@ footer p{
         height: 25vw;
         background-position: center;
     }
+    .itens {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .itens h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .itens div {
+        flex-grow:1;
+        flex-basis: 150px;
+    }
+
 }
+
 
 
 
