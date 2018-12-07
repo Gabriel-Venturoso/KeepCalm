@@ -25,6 +25,7 @@ body{
     background-position: center;
     padding: 1em;
     box-shadow: 2px 2px 10px 2px #aaaaaa;
+
 }
 
 .logo{
@@ -34,7 +35,7 @@ body{
 }
 
 .logo img{
-    width: 50px;
+    width: 100px;
 }
 
 .logo h2{
@@ -323,7 +324,7 @@ footer p{
         display: none;
     }
     .logo img{
-        width: 100px;
+        width: 200px;
     }
     .logo{
         align-items: center;
