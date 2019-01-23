@@ -20,9 +20,7 @@ body{
 }
 
 .index{
-    background: url(../images/bg2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: #24bbce;
     padding: 1em;
     box-shadow: 2px 2px 10px 2px #aaaaaa;
 
